@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Eczar:400,700');
 body,
 nav {
     padding: 0;
@@ -20,6 +21,8 @@ nav div#title {
 }
 
 nav h2 {
+    font-family: 'Eczar', serif;
+
     color: white;
     margin: 0;
     display: inline;
@@ -42,10 +45,12 @@ nav ul li {
 }
 
 li a {
+    font-family: 'Eczar', serif;
+
     color: white;
     font-size: 1.1em;
     text-decoration: none;
-    padding: 23px 13px;
+    padding: 14px 13px;
 }
 
 nav ul li a:hover {
