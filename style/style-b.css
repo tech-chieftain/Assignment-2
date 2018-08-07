@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Eczar:400,700|Space+Mono');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+body,
+html {
+    height: 100%;
+}
+
+body,
+nav {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: inline-flex;
+    width: 100%;
+}
+
+nav {
+    display: block;
+    width: 18%;
+    background: #343434;
+    height: 100%;
+    text-align: center;
+}
+
+nav h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 4em;
+    margin: 100px 0;
+    color: #00938c;
+    text-shadow: 2px 5px black;
+}
+
+nav h2 {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+display: block;
+}
+
+nav ul li a {
+    display: block;
+    font-family: 'Space Mono', monospace;
+    font-size: 1.1em;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    margin: 2px;
+}
+nav ul li a:hover {
+    border: 2px dashed white;
+}
+.active::after {
+    content: ">";
+    color: white;
+    left: 70px;
+    position: relative;
+    background: #343434;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 7px;
+    font-size: 20px;
+}
+
+main {
+    padding: 1em;
+    width: 82%;
+}
+
+main h2 {
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+}
+
+main form {
+    border: #343434 2px dashed;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+main form input {
+    border-radius: 5px;
+    border-color: gray;
+    padding: 5px;
+}
+
+main form textarea {
+    border-radius: 5px;
+    border-color: gray;
+    padding: 5px;
+    border-width: 2px;
+}
+
+main form label {
+    font-family: 'Space Mono', monospace;
+}
+
+#submit {
+    background: #00938c;
+    color: white;
+    width: 40%;
+    align-self: flex-end;
+    margin-top: 10px;
+    padding: 10px 0;
+}
+
+#wrapper {
+    padding: 3px;
+    width: 100%;
+}
+
+#wrapper label {
+    display: inline-block;
+    width: 10%;
+}
+
+#wrapper #name {
+    display: inline-block;
+    width: 87%;
+}
+
+#wrapper #email {
+    display: inline-block;
+    width: 87%;
+}

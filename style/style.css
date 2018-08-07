@@ -1,0 +1,53 @@
+body,
+nav {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #1d627d;
+}
+
+nav {
+    height: 60px;
+    background: rgba(0, 0, 0, 0.3);
+    display: block;
+}
+
+nav div#title {
+    display: inline-block;
+    margin: 15px;
+}
+
+nav h2 {
+    color: white;
+    margin: 0;
+    display: inline;
+    text-align: left;
+}
+
+#menu {
+    float: right;
+    text-align: right;
+}
+
+nav ul {
+    text-align: right;
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline;
+}
+
+li a {
+    color: white;
+    font-size: 1.1em;
+    text-decoration: none;
+    padding: 23px 13px;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
